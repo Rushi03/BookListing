@@ -62,7 +62,6 @@ public class MainActivity extends AppCompatActivity {
             ArrayList<Book> books = (ArrayList<Book>) savedInstanceState.getSerializable("key");
             searchBook.addAll(books);
             adapter.notifyDataSetChanged();
-
         }
     }
 
